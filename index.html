@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Drum Machine js</title>
+</head>
+<body>
+    <div class="flex" id="root">
+        <div id="drum-machine">
+            <div class="pads">
+                <div class="flex pad" id="chord Q">
+                    Q
+                    <audio class="clip" id="Q" src="./sounds/mixkit-correct-answer-fast-notification-953.wav"></audio>
+                </div>
+                <div class="flex pad" id="snare">
+                    W
+                    <audio class="clip" id="W" src="./sounds/mixkit-correct-answer-reward-952.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord E">
+                    E
+                    <audio class="clip" id="E" src="./sounds/mixkit-musical-game-over-959.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord A">
+                    A
+                    <audio class="clip" id="A" src="./sounds/mixkit-positive-interface-beep-221.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord S">
+                    S
+                    <audio class="clip" id="S" src="./sounds/mixkit-deep-dark-horror-drum-557.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord D">
+                    D
+                    <audio class="clip" id="D" src="./sounds/mixkit-tribal-drum-echoes-574.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord Z">
+                    Z
+                    <audio class="clip" id="Z" src="./sounds/mixkit-wrong-long-buzzer-954.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord X">
+                    X
+                    <audio class="clip" id="X" src="./sounds/mixkit-ominous-drums-appear-228.wav"></audio>
+                </div>
+                <div class="flex pad" id="chord C">
+                    C
+                    <audio class="clip" id="C" src="./sounds/mixkit-ominous-drums-227.wav"></audio>
+                </div>
+
+            </div>
+
+            <div class="flex dashboard">
+                <div id="power">
+                    <p>power</p>
+                    <div class="circle-wrapper">
+                        <div class="circle"></div>
+                    </div>       
+                </div>
+
+                <div class="flex" id="display">display</div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
